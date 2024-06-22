@@ -2,7 +2,9 @@
 
 .searchBar {
   .type {
-
+    @include sm{
+      margin-bottom: 5px;
+    }
 
     button {
       padding: 16px 36px;
